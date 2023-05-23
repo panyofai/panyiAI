@@ -4,7 +4,7 @@ import { createPinia } from 'pinia';
 import App from './App.vue';
 import router from './router';
 
-import './assets/main.css';
+import './assets/css/global.css';
 import 'uno.css';
 import '@unocss/reset/tailwind.css';
 
@@ -14,4 +14,3 @@ app.use(createPinia());
 app.use(router);
 
 app.mount('#app');
-

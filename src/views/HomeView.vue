@@ -4,6 +4,6 @@
 <template>
   <div text="red 5">
     首页页面
-    <Test></Test>
+    <UserOutlined />
 </div>
 </template>
